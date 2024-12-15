@@ -1,0 +1,1096 @@
+{
+	"__RootObjects": [
+		{
+			"__UObject": {
+				"Name": "Default__ThirdPersonMap_C",
+				"Class": "uobject:__file__/ThirdPersonMap_C",
+				"Flags": 49
+			},
+			"ActorLabel": "ThirdPersonExampleMap-1"
+		},
+		{
+			"__UObject": {
+				"Name": "PackageMetaData",
+				"Class": "uobject:__native__/CoreUObject/MetaData",
+				"Flags": 2
+			},
+			"__StructuredData": {
+				"ObjectMetaDataMap": [
+					[
+						"uobject:__file__/ThirdPersonMap_C",
+						[
+							[
+								"HideCategories",
+								"Collision Rendering Transformation"
+							]
+						]
+					],
+					[
+						"uobject:None",
+						[
+							[
+								"HideCategories",
+								"Collision Rendering Transformation"
+							]
+						]
+					]
+				],
+				"RootMetaDataMap": [
+					[
+						"PackageLocalizationNamespace",
+						"67872BA74C48E42AB1833F81618ECB5A"
+					]
+				]
+			}
+		},
+		{
+			"__UObject": {
+				"Name": "ThirdPersonMap",
+				"Class": "uobject:__native__/Engine/World",
+				"Flags": 11
+			},
+			"__SerialData": [
+				false,
+				{
+					"__UObject": {
+						"Name": "PersistentLevel",
+						"Class": "uobject:__native__/Engine/Level",
+						"Flags": 8
+					},
+					"__SerialData": [
+						false,
+						"NgAAAA==",
+						{
+							"__UObject": {
+								"Name": "WorldInfo_0",
+								"Class": "uobject:__native__/Engine/WorldSettings",
+								"Flags": 8
+							},
+							"bEnableNavigationSystem": false,
+							"bForceNoPrecomputedLighting": true,
+							"bIncludeGridSizeInNameForFoliageActors": true,
+							"bIncludeGridSizeInNameForPartitionedActors": true,
+							"NavigationSystemConfig": {
+								"__UObject": {
+									"Name": "NavigationSystemConfig_0",
+									"Class": "uobject:__native__/Engine/NavigationSystemConfig",
+									"Flags": 0
+								},
+								"NavigationSystemClass": {
+									"AssetPath": {
+										"PackageName": "/Script/NavigationSystem",
+										"AssetName": "NavigationSystemV1"
+									}
+								}
+							},
+							"WorldPartition": {
+								"__UObject": {
+									"Name": "WorldPartition_0",
+									"Class": "uobject:__native__/Engine/WorldPartition",
+									"Flags": 8
+								},
+								"__SerialData": [
+									false,
+									false
+								],
+								"EditorHash": {
+									"__UObject": {
+										"Name": "WorldPartitionEditorSpatialHash_0",
+										"Class": "uobject:__native__/Engine/WorldPartitionEditorSpatialHash",
+										"Flags": 0
+									}
+								},
+								"bStreamingWasEnabled": false,
+								"RuntimeHash": {
+									"__UObject": {
+										"Name": "WorldPartitionRuntimeHashSet_0",
+										"Class": "uobject:__native__/Engine/WorldPartitionRuntimeHashSet",
+										"Flags": 8
+									},
+									"RuntimePartitions": [
+										{
+											"Name": "MainGrid",
+											"Class": "uobject:__native__/Engine/RuntimePartitionLHGrid",
+											"MainLayer": {
+												"__UObject": {
+													"Name": "RuntimePartitionLHGrid_0",
+													"Class": "uobject:__native__/Engine/RuntimePartitionLHGrid",
+													"Flags": 0
+												},
+												"CellSize": 12800,
+												"Name": "MainGrid",
+												"DebugColor": {
+													"R": 0.930146,
+													"G": 0.419408,
+													"B": 0.710742
+												}
+											},
+											"HLODSetups": [
+												{
+													"Name": "HLOD0_256m_767m",
+													"HLODLayers": [
+														"uobject:Engine/Maps/Templates/HLODs/HLODLayer_Instanced.uasset/HLODLayer_Instanced"
+													],
+													"bIsSpatiallyLoaded": true,
+													"PartitionLayer": {
+														"__UObject": {
+															"Name": "RuntimePartitionLHGrid_1",
+															"Class": "uobject:__native__/Engine/RuntimePartitionLHGrid",
+															"Flags": 0
+														},
+														"Name": "HLOD0_256m_767m",
+														"bClientOnlyVisible": true,
+														"LoadingRange": 76800,
+														"DebugColor": {
+															"R": 0.674987,
+															"G": 0.924384,
+															"B": 0.958586
+														},
+														"HLODIndex": 0
+													}
+												},
+												{
+													"Name": "PersistentLevel",
+													"HLODLayers": [
+														"uobject:Engine/Maps/Templates/HLODs/HLODLayer_Merged.uasset/HLODLayer_Merged"
+													],
+													"bIsSpatiallyLoaded": false,
+													"PartitionLayer": {
+														"__UObject": {
+															"Name": "RuntimePartitionPersistent_0",
+															"Class": "uobject:__native__/Engine/RuntimePartitionPersistent",
+															"Flags": 0
+														},
+														"Name": "PersistentLevel",
+														"bClientOnlyVisible": true,
+														"LoadingRange": 0,
+														"DebugColor": {
+															"R": 0.50112,
+															"G": 0.998356,
+															"B": 0.719138
+														},
+														"HLODIndex": 1
+													}
+												}
+											]
+										}
+									]
+								},
+								"bEnableStreaming": false,
+								"DefaultHLODLayer": "uobject:Engine/Maps/Templates/HLODs/HLODLayer_Instanced.uasset/HLODLayer_Instanced"
+							},
+							"KillZ": -1000,
+							"DefaultGameMode": "uobject:SmartEnemyIA_Alielzo/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset/BP_ThirdPersonGameMode_C",
+							"LightmassSettings": {
+								"NumIndirectLightingBounces": 5,
+								"EnvironmentColor": {
+									"B": 255,
+									"G": 218,
+									"R": 176
+								},
+								"EnvironmentIntensity": 0,
+								"OcclusionExponent": 1.5,
+								"MaxOcclusionDistance": 400
+							},
+							"BookMarks": [
+								"uobject:None",
+								{
+									"__UObject": {
+										"Name": "BookMark_2",
+										"Class": "uobject:__native__/Engine/BookMark",
+										"Flags": 0
+									},
+									"Location": {
+										"X": -811.48695449706952,
+										"Y": 1683.5588027658102,
+										"Z": 1336.2880703116484
+									},
+									"Rotation": {
+										"Pitch": -36.079621225595474,
+										"Yaw": 360.12953491508961
+									}
+								},
+								{
+									"__UObject": {
+										"Name": "BookMark_0",
+										"Class": "uobject:__native__/Engine/BookMark",
+										"Flags": 0
+									},
+									"Location": {
+										"X": 1032.924560546875,
+										"Y": -1225.0106201171875,
+										"Z": 295.62710571289062
+									},
+									"Rotation": {
+										"Pitch": 13.904872894287109,
+										"Yaw": 132.80229187011719
+									}
+								},
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None"
+							],
+							"BookmarkArray": [
+								"uobject:None",
+								"uobject:__file__/ThirdPersonMap/PersistentLevel/WorldInfo_0/BookMark_2",
+								"uobject:__file__/ThirdPersonMap/PersistentLevel/WorldInfo_0/BookMark_0",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None"
+							],
+							"ActorGuid": {
+								"A": 23215529,
+								"B": 1100344815,
+								"C": 1190652592,
+								"D": -19979193
+							},
+							"ActorLabel": "WorldInfo"
+						},
+						{
+							"__UObject": {
+								"Name": "Brush_0",
+								"Class": "uobject:__native__/Engine/Brush",
+								"Flags": 8
+							},
+							"bNotForClientOrServer": true,
+							"Brush": "uobject:__file__/ThirdPersonMap/PersistentLevel/Brush",
+							"BrushComponent": {
+								"__UObject": {
+									"Name": "BrushComponent0",
+									"Class": "uobject:__native__/Engine/BrushComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"Brush": "uobject:__file__/ThirdPersonMap/PersistentLevel/Brush",
+								"bSelectable": false,
+								"RelativeLocation": {
+									"X": 230,
+									"Y": 70,
+									"Z": 130
+								}
+							},
+							"BrushBuilder": {
+								"__UObject": {
+									"Name": "CubeBuilder_11",
+									"Class": "uobject:__native__/UnrealEd/CubeBuilder",
+									"Flags": 0
+								},
+								"Vertices": [
+									{
+										"X": -1000,
+										"Y": -1000,
+										"Z": -100
+									},
+									{
+										"X": -1000,
+										"Y": -1000,
+										"Z": 100
+									},
+									{
+										"X": -1000,
+										"Y": 1000,
+										"Z": -100
+									},
+									{
+										"X": -1000,
+										"Y": 1000,
+										"Z": 100
+									},
+									{
+										"X": 1000,
+										"Y": -1000,
+										"Z": -100
+									},
+									{
+										"X": 1000,
+										"Y": -1000,
+										"Z": 100
+									},
+									{
+										"X": 1000,
+										"Y": 1000,
+										"Z": -100
+									},
+									{
+										"X": 1000,
+										"Y": 1000,
+										"Z": 100
+									}
+								],
+								"Polys": [
+									{
+										"VertexIndices": [
+											0,
+											1,
+											3,
+											2 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											2,
+											3,
+											7,
+											6 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											6,
+											7,
+											5,
+											4 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											4,
+											5,
+											1,
+											0 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											3,
+											1,
+											5,
+											7 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											0,
+											2,
+											6,
+											4 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									}
+								],
+								"Layer": "Cube"
+							},
+							"bHidden": false,
+							"bActorEnableCollision": false,
+							"RootComponent": "uobject:__file__/ThirdPersonMap/PersistentLevel/Brush_0/BrushComponent0",
+							"ActorGuid": {
+								"A": -1493265666,
+								"B": 1290266656,
+								"C": 1100092557,
+								"D": 1635606450
+							},
+							"ActorLabel": "Brush"
+						},
+						{
+							"__UObject": {
+								"Name": "ThirdPersonExampleMap_C_0",
+								"Class": "uobject:__file__/ThirdPersonMap_C",
+								"Flags": 8
+							},
+							"ActorGuid": {
+								"A": -2134459394,
+								"B": 1124532742,
+								"C": -1882223182,
+								"D": 276991025
+							},
+							"ActorLabel": "ThirdPersonExampleMap"
+						},
+						{
+							"__UObject": {
+								"Name": "WorldDataLayers",
+								"Class": "uobject:__native__/Engine/WorldDataLayers",
+								"Flags": 8
+							},
+							"ActorGuid": {
+								"A": 1806650845,
+								"B": 1145856055,
+								"C": 345166737,
+								"D": -1649136489
+							},
+							"ActorLabel": "WorldDataLayers"
+						},
+						"uobject:None",
+						"uobject:None",
+						"uobject:None",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/AX/SZNJSEEQMHBFZB1MTXCP98.uasset/ThirdPersonMap/PersistentLevel/BP_PatrolRoute_C_UAID_244BFE5CE3B4B73602_2058038727",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FG/C9C8NKPQ680JETAE5ROTT1.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_18",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset/ThirdPersonMap/PersistentLevel/PostProcessVolume_0",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_10",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/KF/2MJQQS17KZB24XELQOVPU7.uasset/ThirdPersonMap/PersistentLevel/RecastNavMesh_UAID_244BFE5CE3B4513602-Default",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset/ThirdPersonMap/PersistentLevel/TextRenderActor_1",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/6L/MSSLIBIERC61JPFROXK6A5.uasset/ThirdPersonMap/PersistentLevel/EQS_TestingPawn_C_UAID_244BFE5CE3B4F33602_1627231287",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/EY/87SHEJN5UBEAN2K5OV1G6R.uasset/ThirdPersonMap/PersistentLevel/VolumetricCloud_0",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/M3/7JQC72ZY37QM4IT43WD5CW.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_24",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_34",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/Y2/I6JFWY3CSOI54HW4R2ZRYE.uasset/ThirdPersonMap/PersistentLevel/NavMeshBoundsVolume_UAID_244BFE5CE3B4513602_1827690776",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/60/5PI42YRDC8HSSG6BVV2GRR.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_15",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LN/30UBDLYFFA5ZR7U4W4L4GG.uasset/ThirdPersonMap/PersistentLevel/SkyAtmosphere_0",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/11/IM858T68EBXCBX1T2FNR96.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_14",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_11",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_4",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QO/CO9MG7REJF8N8AQFYRCI06.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_19",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/R1/TS5OQ5CRUWFZYL1ZQ7I416.uasset/ThirdPersonMap/PersistentLevel/DirectionalLight_0",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/CZ/K2YM0JIRZ78IHGM8W2QBAF.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_22",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/DX/13UF4SQG1SJGIZN4ERUV0R.uasset/ThirdPersonMap/PersistentLevel/BP_Enemy_Melee_C_UAID_244BFE5CE3B48E3702_1207423567",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_33",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/IR/OTJMGDDXDV5TI7982YKZ5P.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_3",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/J7/N10XDC9G27EMLS5AGZ6AVV.uasset/ThirdPersonMap/PersistentLevel/ExponentialHeightFog_0",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_35",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/XB/9VVR39MG0K7W5GQIEFE7SO.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_25",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_1",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/3J/6B9RJI3FDPCETRKXUXCQ4C.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_9",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset/ThirdPersonMap/PersistentLevel/SkyLight_1",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/U7/H8YL2PPHZPBTI74SUD0RNL.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_12",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/16/Q7Y1URWWFS0TXGWUTO3S61.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_8",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/17/6LXV4Y6DE3LUT705XNU4DZ.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_23",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_0",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/WM/3PSPF0HRB731YFKIBXWY2F.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_UAID_244BFE5CE3B4FD3602_1361858048",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4D/BBOCKSZY1GVHTFRX0PR0O8.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_16",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/8K/1IKKDYS7RULH8FRYRPPF04.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_32",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/EA/9BWDWCNL7OZT2HTML9LK1Y.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_13",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/FB/8RB55FM1HBEUVO4IOQC4YN.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_21",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_5",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/YT/CQR16QFDKKEYP53M51TV4F.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_20",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_6",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/3V/NMHOKL5LGQDOAAG00FUMZR.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_7",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/56/YOON42T8IBWTJGFWZTNNPV.uasset/ThirdPersonMap/PersistentLevel/BP_Enemy_Ranged_C_UAID_244BFE5CE3B4113702_1142898567",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset/ThirdPersonMap/PersistentLevel/PlayerStart_0",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset/ThirdPersonMap/PersistentLevel/StaticMeshActor_2",
+						"uobject:SmartEnemyIA_Alielzo/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset/ThirdPersonMap/PersistentLevel/WorldPartitionMiniMap_0",
+						"uobject:None",
+						"BwAAAA==",
+						"dW5yZWFsAA==",
+						"AAAAAA==",
+						"CgAAAA==",
+						"R2VhclN0YXJ0AA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"6AMAAA==",
+						"AQAAAA==",
+						{
+							"__UObject": {
+								"Name": "Model_0",
+								"Class": "uobject:__native__/Engine/Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"uobject:__file__/ThirdPersonMap/PersistentLevel/Polys_0",
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								false,
+								"AAAAAA==",
+								"AAAAAA==",
+								"csfQMw==",
+								"lj8DSA==",
+								"9cQUYQ==",
+								"L3eVrg==",
+								"AQAAAA==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw=="
+							]
+						},
+						"AAAAAA==",
+						{
+							"__UObject": {
+								"Name": "ThirdPersonMap",
+								"Class": "uobject:__native__/Engine/LevelScriptBlueprint",
+								"Flags": 9
+							},
+							"ParentClass": "uobject:__native__/Engine/LevelScriptActor",
+							"BlueprintType": "BPTYPE_LevelScript",
+							"BlueprintSystemVersion": 2,
+							"UbergraphPages": [
+								{
+									"__UObject": {
+										"Name": "EventGraph",
+										"Class": "uobject:__native__/Engine/EdGraph",
+										"Flags": 8
+									},
+									"Schema": "uobject:__native__/BlueprintGraph/EdGraphSchema_K2",
+									"bAllowDeletion": false,
+									"GraphGuid": {
+										"A": -1718712968,
+										"B": 1212926032,
+										"C": -2087367763,
+										"D": 1263648286
+									}
+								}
+							],
+							"GeneratedClass": "uobject:__file__/ThirdPersonMap_C",
+							"bLegacyNeedToPurgeSkelRefs": false,
+							"BlueprintGuid": {
+								"A": -1509322842,
+								"B": 1394848052,
+								"C": -57523577,
+								"D": -1863029888
+							}
+						},
+						"uobject:__file__/ThirdPersonMap/PersistentLevel/ThirdPersonExampleMap_C_0",
+						"uobject:None",
+						"uobject:None",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA=="
+					],
+					"bUseExternalActors": true,
+					"Model": "uobject:__file__/ThirdPersonMap/PersistentLevel/Model_0",
+					"LevelScriptBlueprint": "uobject:__file__/ThirdPersonMap/PersistentLevel/ThirdPersonMap",
+					"LevelScriptActor": "uobject:__file__/ThirdPersonMap/PersistentLevel/ThirdPersonExampleMap_C_0",
+					"LevelBuildDataId": {
+						"A": -1490100573,
+						"B": 1308703535,
+						"C": 34041530,
+						"D": -474259793
+					},
+					"bIsPartitioned": true,
+					"WorldSettings": "uobject:__file__/ThirdPersonMap/PersistentLevel/WorldInfo_0",
+					"WorldDataLayers": "uobject:__file__/ThirdPersonMap/PersistentLevel/WorldDataLayers",
+					"bUseActorFolders": true,
+					"__IndirectlyReferenced": [
+						{
+							"__UObject": {
+								"Name": "Brush",
+								"Class": "uobject:__native__/Engine/Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAABAj0A=",
+								"AAAAAABAj0A=",
+								"AAAAAAAAWUA=",
+								"22B1j/omlkA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"uobject:__file__/ThirdPersonMap/PersistentLevel/Polys_4",
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								true,
+								"CAAAAA==",
+								"AAAAAA==",
+								"fc09wA==",
+								"cmSNqA==",
+								"P9PNcg==",
+								"KYDY9g==",
+								"AAAAAA=="
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "Polys_0",
+								"Class": "uobject:__native__/Engine/Polys",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AAAAAA=="
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "Polys_4",
+								"Class": "uobject:__native__/Engine/Polys",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"BgAAAA==",
+								"AAB6xA==",
+								"AAB6xA==",
+								"AADIwg==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6xAAAesQAAMjCAAB6xAAAesQAAMhCAAB6xAAAekQAAMhCAAB6xAAAekQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6xA==",
+								"AAB6RA==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAgA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6xAAAekQAAMjCAAB6xAAAekQAAMhCAAB6RAAAekQAAMhCAAB6RAAAekQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6RA==",
+								"AAB6RA==",
+								"AADIwg==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6RAAAekQAAMjCAAB6RAAAekQAAMhCAAB6RAAAesQAAMhCAAB6RAAAesQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6RA==",
+								"AAB6xA==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAgA==",
+								"AAAAgA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6RAAAesQAAMjCAAB6RAAAesQAAMhCAAB6xAAAesQAAMhCAAB6xAAAesQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6xA==",
+								"AAB6RA==",
+								"AADIQg==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAB6xAAAekQAAMhCAAB6xAAAesQAAMhCAAB6RAAAesQAAMhCAAB6RAAAekQAAMhC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6xA==",
+								"AAB6xA==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAB6xAAAesQAAMjCAAB6xAAAekQAAMjCAAB6RAAAekQAAMjCAAB6RAAAesQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None"
+							]
+						}
+					]
+				},
+				"AAAAAA==",
+				"AAAAAA=="
+			],
+			"ThumbnailInfo": {
+				"__UObject": {
+					"Name": "WorldThumbnailInfo_0",
+					"Class": "uobject:__native__/UnrealEd/WorldThumbnailInfo",
+					"Flags": 8
+				}
+			},
+			"EditorViews": [
+				{
+					"CamPosition": {
+						"X": -681.40557200000001,
+						"Y": 1682.036544,
+						"Z": 1367.3921539999999
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": false
+				},
+				{
+					"CamPosition": {
+						"X": -681.40557200000001,
+						"Y": 1682.036544,
+						"Z": 1367.3921539999999
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": false
+				},
+				{
+					"CamPosition": {
+						"X": -681.40557200000001,
+						"Y": 1682.036544,
+						"Z": 1367.3921539999999
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": false
+				},
+				{
+					"CamPosition": {
+						"X": 457.09149300000001,
+						"Y": 2105.7503590000001,
+						"Z": 152.67472100000001
+					},
+					"CamRotation": {
+						"Pitch": -3.1499990000000002,
+						"Yaw": -57.050001000000002,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": false
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				}
+			],
+			"ContentBundleManager": {
+				"__UObject": {
+					"Name": "ContentBundleManager_0",
+					"Class": "uobject:__native__/Engine/ContentBundleManager",
+					"Flags": 0
+				},
+				"PIEDuplicateHelper": {
+					"__UObject": {
+						"Name": "ContentBundleDuplicateForPIEHelper_1",
+						"Class": "uobject:__native__/Engine/ContentBundleDuplicateForPIEHelper",
+						"Flags": 0
+					}
+				}
+			}
+		},
+		{
+			"__UObject": {
+				"Name": "ThirdPersonMap_C",
+				"Class": "uobject:__native__/Engine/BlueprintGeneratedClass",
+				"Flags": 9
+			},
+			"__SerialData": [
+				false,
+				"uobject:__native__/Engine/LevelScriptActor",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"BAqEAA==",
+				"uobject:__native__/CoreUObject/Object",
+				"Engine",
+				"uobject:__file__/ThirdPersonMap/PersistentLevel/ThirdPersonMap",
+				"AAAAAA==",
+				false,
+				"None",
+				false,
+				"uobject:__file__/Default__ThirdPersonMap_C"
+			]
+		}
+	],
+	"__CustomVersions": [
+		{
+			"Key": "E4B068EDF49442E9A231DA0B2E46BB41",
+			"Version": 40
+		},
+		{
+			"Key": "697DD581E64F41ABAA4A51ECBEB7B628",
+			"Version": 119
+		},
+		{
+			"Key": "59DA5D5212324948B878597870B8E98B",
+			"Version": 8
+		},
+		{
+			"Key": "D89B5E4224BD4D468412ACA8DF641779",
+			"Version": 51
+		},
+		{
+			"Key": "601D1886AC644F84AA16D3DE0DEAC7D6",
+			"Version": 170
+		},
+		{
+			"Key": "9C54D522A8264FBE9421074661B482D0",
+			"Version": 44
+		},
+		{
+			"Key": "9DFFBCD6494F0158E22112823C92A888",
+			"Version": 10
+		},
+		{
+			"Key": "1ED048F42F2E4C6889D053A4F18F102D",
+			"Version": 1
+		},
+		{
+			"Key": "CFFC743F43B04480939114DF171D2073",
+			"Version": 37
+		},
+		{
+			"Key": "E70863686B234C5884391B7016265E91",
+			"Version": 15
+		},
+		{
+			"Key": "12F88B9F88754AFCA67CD90C383ABD29",
+			"Version": 49
+		},
+		{
+			"Key": "B0D832E41F894F0DACCF7EB736FD4AA2",
+			"Version": 10
+		},
+		{
+			"Key": "29E575DDE0A346279D10D276232CDCEA",
+			"Version": 17
+		},
+		{
+			"Key": "375EC13C06E448FBB50084F0262A717E",
+			"Version": 4
+		}
+	]
+}
